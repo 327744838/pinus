@@ -1,0 +1,968 @@
+/*
+* Custom Responsive Media Query
+*/
+
+@media screen and (min-width: 1351px) and (max-width: 1440px){
+    .menu-left {
+        margin: 25px 0 0 0;
+    }
+    .main-menu > ul > li > a {
+        margin-right: 30px;
+    }
+    .menu-right {
+        margin: 25px 0 0 25px;
+    }
+    .change-person {
+        right: 30px;
+    }
+    /*Slider Area*/
+    .slider-overlay {
+        left: 0;
+        width: 420px;
+    }
+    /* Coming Soon Page */
+    .coming-soon-area {
+        padding: 90px 0 0;
+    }
+    .coming-soon-content #clock.clock-2 {
+        margin: 40px auto 40px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1350px){
+    .menu-left {
+        margin: 25px 0 0 35px;
+    }
+    .main-menu > ul > li > a {
+        margin-right: 25px;
+    }
+    .menu-right {
+        margin: 25px 0 0 25px;
+    }
+    .header-area {
+        padding: 0 25px;
+    }
+
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    /*Menu Css*/
+    .header-area {
+        padding: 0 25px;
+    }
+    .social-icon li a {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .main-menu > ul > li > a {
+        font-size: 14px;
+        margin-right: 17px;
+    }
+    .search-cart li a {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .logo-area img {
+        width: 100%;
+    }
+    .menu-left,.menu-right,.search-cart,.social-icon {
+        margin: 25px 0 0;
+    }
+    .menu-left,.menu-right{
+        margin-left: 18px;
+    }
+    .menu-has-children {
+        padding-bottom: 0;
+    }
+    .menu-has-children::after {
+        right: 20px;
+        top: 2px;
+    }
+    #language {
+        left: -10px;
+        top: 40px;
+    }
+    .main-menu > ul > li > ul {
+        top: 39px;
+    }
+    /*Latest news*/
+    .thumbnail-news {
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+    .small-news {
+        width: 76%;
+    }
+    .small-news h4 {
+        margin-bottom: 15px;
+    }
+    .small-news p {
+        color: #666666;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    /*Mission area*/
+    .mission-area {
+        padding: 80px 0;
+    }
+    .change-person {
+        bottom: auto;
+        left: auto;
+        position: absolute;
+        right: 0;
+        top: 20px;
+        width: 586px;
+    }
+    .mission-content .section-title {
+        font-size: 40px;
+    }
+    .mission-content p {
+        font-size: 22px;
+    }
+    /*Upcoming Champaign*/
+    .single-count{
+        margin-right: 30px;
+    }
+    .counter-area .section-title {
+        font-size: 40px;
+    }
+    .video-container {
+        padding: 219px 0;
+    }
+    /*Shop Area*/
+    #product-crousel.owl-theme .owl-controls .owl-buttons .owl-next {
+        right: 15px;
+    }
+    #product-crousel.owl-theme .owl-controls .owl-buttons .owl-prev {
+        left: 15px;
+    }
+    .slider-overlay {
+        left: 0;
+        width: 280px;
+    }
+    /*Home 2*/
+    .conference-img {
+        width: 25%;
+    }
+    .conference-img img {
+        max-height: 163px;
+        min-height: inherit;
+    }
+    #video-carosel.owl-theme .owl-controls .owl-buttons .owl-prev {
+        left: 0;
+        top: -85px;
+    }
+    #video-carosel.owl-theme .owl-controls .owl-buttons .owl-next {
+        right: 0;
+        top: -85px;
+    }
+    /*Home 3*/
+    .main-menu-3 li a {
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    .main-menu .menu-has-children::after{
+        right: 3px;
+    }
+    .main-menu-3 .menu-has-children::after {
+        right: 10px;
+    }
+    .main-menu-2 .menu-has-children::after {
+        right: 13px;
+    }
+    .menu-has-children{
+        padding-bottom: 25px;
+    }
+    .main-menu-3 .menu-has-children > ul{
+        top: 40px;
+    }
+    /*Biography*/
+    .event-img {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    /*Event Page*/
+    .single-event .pull-left {
+        padding-right: 30px;
+    }
+    .media-body .count-number{
+        font-size: 30px;
+    }
+    .media-body .count-text{
+        font-size: 13px;
+    }
+    .media-heading a {
+        font-size: 30px;
+    }
+    /*Photo Page*/
+    .photos-area {
+        padding: 25px 0 80px;
+    }
+    /*Shop Page*/
+    #mixer .product-details {
+        margin-top: 30px;
+        min-height: 328px;
+    }
+    .product-img .filled-button {
+        top: 100px;
+    }
+    /*Shop Details*/
+    .small-products {
+        margin: 38px 0 25px;
+    }
+    .small-products img {
+        margin-right: 20px;
+        max-width: 160px;
+    }
+    .product-size-selctor p {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+    .product-color {
+        margin: 40px 0 0 25px;
+    }
+    .related-product .section-title {
+        margin-top: 50px;
+    }
+    .product-buttons-group ul li a {
+        font-size: 14px;
+        margin-right: 10px;
+        opacity: 1;
+        padding: 7px 15px;
+    }
+    .product-buttons-group ul li a span {
+        padding-left: 8px;
+    }
+    .product-size-data li {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    /*Sign Up*/
+    .sign-up-form input {
+        width: 46%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    div.hidden-md,nav.hidden-md{
+        display: block !important;
+    }
+    nav.hidden-sm,.header-three-area {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    /*Menu*/
+    .menu-has-children::after {
+        right: 20px;
+    }
+    .header-area {
+        padding: 0 25px 25px;
+    }
+    /**Mobile Menu**/
+    #language {
+        left: -19px;
+        top: 39px;
+    }
+    /*Slider*/
+    .slider-overlay {
+        display: none;
+    }
+    /*Latest News*/
+    .section-title {
+        font-size: 35px;
+    }
+    .thumbnail-news {
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+    .small-news {
+        width: 69%;
+    }
+    .small-news h4 {
+        margin-bottom: 15px;
+    }
+    .small-news h4 a {
+        color: #000;
+        font-size: 16px;
+    }
+    .small-news p {
+        font-size: 13px;
+        line-height: 16px;
+        margin-bottom: 0;
+    }
+    .change-person {
+        display: none;
+    }
+    /*Shop Area*/
+    .shop-area {
+        padding: 100px 0 90px;
+    }
+    #product-crousel.owl-theme .owl-controls .owl-buttons .owl-next {
+        right: 15px;
+    }
+    #product-crousel.owl-theme .owl-controls .owl-buttons .owl-prev {
+        left: 15px;
+    }
+    /*Volunteer Area*/
+    .volunteer-content .section-title {
+        font-size: 45px;
+    }
+    .single-count{
+        margin-right: 30px;
+    }
+    .video-container {
+        padding: 216px 0;
+    }
+    /*Upcoming*/
+    .counter-area {
+        padding: 110px 0 111px 30px;
+    }
+    .single-count{
+        margin-right: 30px;
+    }
+    .counter-area .section-title {
+        font-size: 32px;
+    }
+    /** Home 2 **/
+
+    .section-title-2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    #home-two-crousel .carousel-control.right {
+        right: 20px;
+    }
+    #home-two-crousel .carousel-control.left {
+        left: 20px;
+    }
+    #video-carosel.owl-theme .owl-controls .owl-buttons .owl-prev {
+        left: 0;
+        top: -130px;
+    }
+    #video-carosel.owl-theme .owl-controls .owl-buttons .owl-next {
+        right: 0;
+        top: -130px;
+    }
+    #resume-carousel .carousel-indicators li {
+        font-size: 16px;
+    }
+    .call-to-title {
+        font-size: 24px;
+    }
+    .bordered-button.champ {
+        font-size: 15px;
+        margin-right: 10px;
+        padding: 13px 15px 14px;
+    }
+    .bordered-button.donate {
+        font-size: 15px;
+        margin-top: 0;
+        padding: 13px 15px 14px;
+    }
+    /*Funfacts*/
+    .funfacts-area {
+        padding: 125px 0 0;
+    }
+    .facts-content {
+        margin-bottom: 85px;
+    }
+    .conference-img img {
+        max-height: 250px;
+        min-height: inherit;
+    }
+    /*Home 3*/
+    .news-wrap {
+        margin-bottom: 30px;
+    }
+    #clock.clock-2 {
+        margin: 39px 0 29px;
+    }
+    /*Biography*/
+    .event-img {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    /*News Page*/
+    .paginations {
+        padding: 51px 0;
+    }
+    .paginations li a {
+        margin: 0 6px;
+    }
+    /**News Details**/
+    .video-post iframe {
+        min-height: 320px;
+    }
+    .post-contents .button-with-icon .filled-button {
+        margin-top: 20px;
+    }
+    .related-post-left {
+        width: 100%;
+    }
+    .related-post-right {
+        width: 100%;
+    }
+    .find-event-form {
+        width: 100%;
+    }
+    .find-event-form input {
+        width: 100%;
+    }
+    /*Event Page*/
+    .media-body, .single-event .pull-left, .media-right {
+        display: block;
+    }
+    .single-event .pull-left {
+        display: block;
+        padding-right: 0;
+    }
+    /*Volunteer Page*/
+    .volunteer-details {
+        display: table;
+        margin: 0 auto 37px;
+    }
+    /*Shop Page*/
+    #mixer .product-details {
+        margin-top: 30px;
+        min-height: 257px;
+    }
+    .product-img .filled-button {
+        top: 85px;
+    }
+    .mixer-sort li {
+        margin-right: 35px;
+    }
+    .product-details-img {
+        text-align: center;
+    }
+    .related-product .section-title {
+        margin-top: 50px;
+    }
+    /*Coming Soon*/
+    .coming-soon-area {
+        padding: 130px 0 0;
+    }
+    /*Sign Up*/
+    .sign-up-form input {
+        width: 47%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+    /** Menu**/
+    .header-area {
+        padding: 0 20px 25px;
+    }
+
+    #language {
+        left: -19px;
+        top: 39px;
+    }
+    .menu-has-children {
+        padding-bottom: 0;
+    }
+    /*Slider Area*/
+    .slider-overlay {
+        display: none;
+    }
+    .slider-content h2 {
+        font-size: 45px;
+    }
+    .slider-content h1 {
+        font-size: 35px;
+    }
+    .bordered-button i{
+        display: none;
+    }
+    /** Donate Now **/
+    .section-title {
+        font-size: 30px;
+    }
+    .donate-area {
+        padding: 80px 0;
+    }
+    .donate-buttons span {
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    /*News Area*/
+    .latest-news {
+        padding: 80px 0 60px;
+    }
+    .news-wrap {
+        margin-bottom: 30px;
+    }
+    .thumbnail-news {
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+    .small-news {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .change-person {
+        display: none;
+    }
+    /*Mission Area*/
+    .mission-area {
+        padding: 80px 0;
+    }
+    /*Shop Area*/
+    .shop-area {
+        padding: 80px 0 15px;
+    }
+    #product-crousel.owl-theme .owl-controls .owl-buttons .owl-next {
+        right: 15px;
+    }
+    #product-crousel.owl-theme .owl-controls .owl-buttons .owl-prev {
+        left: 15px;
+    }
+    .video-container {
+        padding: 130px 0;
+    }
+    .counter-area {
+        padding: 80px 0 80px 15px;
+    }
+    .pull-left.single-count{
+        float: none !important;
+        margin: 0 10px 10px;
+        display: inline-block;
+    }
+    .count-number{
+        font-size: 20px;
+    }
+    .count-text {
+        font-size: 13px;
+    }
+    .counter-area .filled-button {
+        margin: 30px auto 0;
+    }
+    .volunteer-area {
+        padding: 80px 0;
+    }
+    .volunteer-content .section-title {
+        font-size: 35px;
+    }
+    /*Tweet Area*/
+    .tweet-area {
+        padding: 80px 0;
+    }
+    .tweet-content p {
+        font-size: 20px;
+    }
+    /*Subscribe Area*/
+    .subscribe-area {
+        padding: 80px 0;
+    }
+    .subscribe-form input {
+        width: 100%;
+    }
+    /* footer */
+    .footer-menu {
+        text-align: center;
+    }
+    .footer-menu li a {
+        font-size: 10px;
+        margin-right: 7px;
+        padding: 5px 0;
+    }
+    /*Home 2*/
+    .header-top{
+        display: none;
+    }
+    #home-two-crousel .carousel-control.right {
+        right: 0;
+    }
+    #home-two-crousel .carousel-control.left {
+        left: 0;
+    }
+    #home-two-crousel .carousel-control {
+        font-size: 50px;
+        height: 30px;
+    }
+    .slider-area-2 .item {
+        padding: 80px 0;
+    }
+    .call-to-title {
+        font-size: 28px;
+        line-height: 1;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .call-to-button.text-right{
+        text-align: center;
+    }
+    .bordered-button.champ {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .president-area {
+        padding: 80px 0;
+    }
+    .mission-content p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .champaign-area-2 {
+        padding: 80px 0;
+    }
+    #video-carosel.owl-theme .owl-controls .owl-buttons .owl-prev {
+        left: 0;
+    }
+    #video-carosel.owl-theme .owl-controls .owl-buttons .owl-next {
+        right: 0;
+    }
+    .issues-area {
+        padding: 80px 0;
+    }
+    .issues-area .section-title-2 {
+        margin-bottom: 50px;
+    }
+    .section-title-2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .single-news h3 a {
+        font-size: 25px;
+    }
+    .carousel-indicators span {
+        display: none;
+    }
+    #resume-carousel .carousel-indicators li{
+        padding-top: 1px;
+    }
+    .clock-2 .count-number{
+        font-size: 25px;
+    }
+    .clock-2 .count-text{
+        font-size: 12px;
+    }
+    .make-difference {
+        padding: 80px 0;
+    }
+    /*Tweet Area*/
+    .tweet-area-2 {
+        padding: 80px 0;
+    }
+    /*Funfacts*/
+    .funfacts-area {
+        padding: 115px 0 0;
+    }
+    .facts-content {
+        margin-bottom: 85px;
+    }
+    .conference-img {
+        width: 100%;
+    }
+    /*Home 3*/
+    .slider-content-home3 h2 {
+        font-size: 33px;
+        line-height: 36px;
+    }
+    .slider-form input[type="email"] {
+        width: 100%;
+    }
+    .slider-form input[type="text"] {
+        width: 100%;
+    }
+    .believe-area {
+        padding: 80px 0;
+    }
+    .believe-cont .section-title-2 {
+        margin-bottom: 50px;
+    }
+    .footer-top .social-icon li a {
+        margin-right: 20px;
+    }
+    /*Biography Page*/
+    .banner-area {
+        padding: 170px 0;
+    }
+    .about-area {
+        padding: 80px 0;
+    }
+    .about-video {
+        min-height: 380px;
+    }
+    .event-area {
+        padding: 50px 0 53px;
+    }
+    .event-img {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .event-content {
+        padding-left: 0;
+    }
+    .timeline-area {
+        padding: 80px 0;
+    }
+    .timeline-description::before,
+    .timeline-description::after{
+        display: none;
+    }
+    .timeline-description {
+        padding-right: 15px;
+    }
+    .timeline-right-content .timeline-description {
+        padding-left: 15px;
+    }
+    .people-interaction {
+        padding: 80px 0;
+    }
+    .interaction-content {
+        padding: 0;
+    }
+    .interaction-content p {
+        padding: 0;
+    }
+    .button-with-icon .filled-button.facebook {
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .button-with-icon .filled-button.twitter {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .interact-people {
+        display: table;
+        margin: 0 auto 30px;
+    }
+    /*News page*/
+    .news-area {
+        padding: 80px 0;
+    }
+    .news-post h3 a {
+        font-size: 26px;
+    }
+    .paginations {
+        padding: 51px 0;
+    }
+    .paginations li a {
+        font-size: 16px;
+        margin: 0 0 15px;
+        padding: 0 4px;
+    }
+    aside.widget:last-of-type{
+        margin-bottom: 0;
+    }
+    /*News Details*/
+    .post-details blockquote {
+        font-size: 25px;
+        line-height: 1;
+    }
+    .video-post iframe {
+        min-height: 250px;
+    }
+    .post-contents .button-with-icon .filled-button {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    .button-with-icon .filled-button.facebook {
+        margin-top: 30px;
+    }
+    .button-with-icon .filled-button.twitter {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .related-post-left {
+        width: 100%;
+    }
+    .related-post .small-news {
+        margin-top: 0;
+        width: 62%;
+    }
+    .small-news h4 a {
+        color: #000;
+        font-size: 15px;
+        line-height: 1;
+    }
+    .related-post-right {
+        width: 100%;
+    }
+    .related-post .related-post-right .small-news {
+        width: 62%;
+    }
+    /*Event Page*/
+    .media-body, .single-event .pull-left, .media-right {
+        display: block;
+    }
+    .find-event-form {
+        width: 100%;
+    }
+    .single-event .pull-left {
+        padding-right: 0;
+    }
+    .find-event-form input {
+        width: 100%;
+    }
+    .media-body {
+        width: 100%;
+    }
+    .media-body .count-text {
+        font-size: 12px;
+    }
+    .event-listing-area {
+        padding: 80px 0 20px;
+    }
+    .find-event-area {
+        padding: 80px 0;
+    }
+    .single-event  .pull-left.single-count {
+        padding-right: 0;
+        margin-right: 0;
+        display: inline-block;
+        float: none !important;
+    }
+    .media-body .clock {
+        margin: 35px auto 0;
+    }
+    /*Photo Page*/
+    .photos-area {
+        padding: 30px 0;
+    }
+    .photos-title {
+        margin: 50px 0 42px;
+    }
+    .photos-title h3 {
+        font-size: 28px;
+    }
+    /*Volunteer Page*/
+    .volunteer-details {
+        display: table;
+        margin: 0 auto 37px;
+    }
+    /*Shop Page*/
+    .mixer-sort li {
+        margin-bottom: 15px;
+        margin-right: 20px;
+    }
+    #mixer .product-details {
+        display: table;
+        margin: 50px auto 0;
+        min-height: inherit;
+    }
+    /*Shop Details Page*/
+    .small-products {
+        display: table;
+        margin: 20px auto 0;
+        text-align: center;
+    }
+    .small-products img {
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+    .product-description h3 {
+        font-size: 25px;
+        line-height: 1;
+    }
+    .product-description h4 {
+        margin: 9px 0 25px;
+    }
+    .product-size-selctor p {
+        font-size: 10px;
+        padding: 14px 15px;
+    }
+    .product-color {
+        margin: 40px 0 0;
+    }
+    .product-buttons-group ul li a {
+        font-size: 14px;
+        margin-bottom: 16px;
+        margin-right: 12px;
+        padding: 7px 14px;
+    }
+    .related-product .section-title {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .product-details {
+        min-height: 345px;
+    }
+    .product-img .filled-button {
+        top: 102px;
+    }
+    .product-counter {
+        margin-right: 30px;
+    }
+    /*Coming Soon Page*/
+    .coming-soon-logo {
+        margin: 0 auto;
+        width: 120px;
+    }
+    .coming-soon-area {
+        padding: 50px 0;
+        position: relative;
+    }
+    .coming-soon-content #clock.clock-2 {
+        margin: 30px auto;
+    }
+    .coming-soon-content .single-count .count-number{
+        font-size: 25px;
+    }
+    .coming-soon-content .single-count .count-text{
+        font-size: 12px;
+    }
+    .coming-soon-content p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .coming-soon-form {
+        margin: 30px auto 0;
+        width: 100%;
+    }
+    .coming-soon-form input {
+        font-size: 12px;
+        width: 90%;
+    }
+    .coming-soon-form button {
+        font-size: 14px;
+        padding: 21px 16px;
+    }
+    /*Sign Up*/
+    .sign-up-area {
+        padding: 80px 0;
+    }
+    .sign-up-area .no-padding{
+        padding: 0 15px !important;
+    }
+    .sign-up-form {
+        margin: 40px 0 0;
+        padding: 0;
+        width: 100%;
+    }
+    .sign-up-form input {
+        width: 100%;
+    }
+    .sign-up-form input[name="fname"], .sign-up-form input[name="phone"] {
+        margin-right: 0;
+    }
+
+}
+@media screen and (min-width: 550px) and (max-width: 767px){
+    .photos-area .col-xs-12,.our-volunteers-area .col-xs-12,.conference-img{
+        width: 50%;
+    }
+    .volunteer-img {
+        width: 100%;
+    }
+    .volunteer-img > img {
+        max-width: inherit;
+        width: 100%;
+    }
+    #mixer .col-xs-12{
+        width: 50%;
+    }
+    #mixer .product-details {
+        display: inline-block;
+        margin: 30px auto 0;
+        min-height: 380px;
+    }
+    .product-area .paginations {
+        padding: 50px 0 0;
+    }
+    /*comming Soon*/
+    .coming-soon-area{
+        position: fixed;
+    }
+}
